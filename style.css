@@ -4,213 +4,89 @@ body {
     padding: 0;
 }
 
-.mainContainer {
-    width: 1920px;
+.bodyArea {
+    max-width: 1920px !important;
+    margin: 0 !important;
+}
+
+.fontawesome-i2svg-active .fontawesome-i2svg-complete {
+    max-width: 1920px;
+    margin: 0 !important;
 }
 
 div.navContainer {
-    width: 1920px;
-    height: 140px;
     background-color: #fff;
-    display: flex;
+    margin: 0 auto;
+    max-width: 1920px;
+    padding-right: 0;
 }
 
-img.logoContainer {
-    margin-top: 20px;
-    margin-left: 30px;
+div.navRow {
+    width: 100%;
+    display: flex;
+    position: fixed;
+    background-color: #fff;
+    padding: 12px;
+}
+
+div.col1Nav {
+    width: 15%;
+}
+
+div.col2Nav {
+    width: 85%;
+}
+
+div.logoContainer {
     background-size: cover;
-    height: 100px;
-    width: 177px;
     background-repeat: no-repeat;
 }
 
-.innerContainer {
-    max-width: 1200px;
+.logoBrand {
+    height: auto;
+    max-width: 177px;
 }
 
 .navLinks {
-    height: 19px;
-    width: 1007.42px;
-    font-size: 18px;
     font-family: "Manrope";
-    color: rgb(42, 43, 51);
-    font-weight: bold;
-    line-height: 1.111;
     text-align: left;
-    margin: 60px 0px 60px 273px;
-    /* white-space: nowrap; */
+    margin: 0;
+    padding-top: 40px;
+    padding-bottom: 20px;
+    white-space: nowrap;
+    font-size: 18px;
+    color: #2a2b33;
+    font-weight: bold;
 }
 
-.navLinks a {
-    padding-right: 50px;
-    color: black;
+.col2Nav {
+    float: right;
+    text-align: end;
+}
+
+a.navLinks,
+.navLinks>a {
+    padding: 0 2.5em 0 0;
+    color: #2a2b33;
     text-decoration: none;
+    word-spacing: 0;
 }
 
-button.navBtn {
+a.navBtn {
     background-color: rgb(6, 79, 122);
-    width: 349px;
-    height: 64px;
-    margin: 38px 30px 38px 55px;
+    color: #fff;
+    margin-left: 2rem;
     text-align: left;
     white-space: nowrap;
-}
-
-span.navBtnTxt {
     font-family: "Manrope";
-    color: white;
+    /* font-size: 16px; */
     font-size: 18px;
     font-weight: bold;
-    padding: 25px 28px;
-    height: 19px;
-    width: 340px;
+    padding: 0.5em;
+    border: 2px solid #064f7a;
+    margin-right: 1.5rem;
 }
 
 .blankSpace {
     height: 500px;
-    width: 1920px;
-}
-
-.footerContainer {
-    height: 440px;
-    width: 1920px;
-    background-color: rgb(42, 43, 51);
-    margin-bottom: 0;
-}
-
-.footerInBox {
-    width: 1200px;
-    display: flex;
-    color: white;
-    font-family: "Manrope";
-}
-
-.col1,
-.col2,
-.col3,
-.col4 {
-    height: 440px;
-    width: 258px;
-    padding-top: 100px;
-    text-align: left;
-    margin-right: 80px;
-}
-
-.col1 {
-    margin-left: 360px;
-}
-
-.col2,
-.col3,
-.col4 {
-    margin-left: 80px;
-}
-
-.col1 p {
-    font-size: 14px;
-    font-family: "Manrope";
-    color: rgb(255, 255, 255);
-    line-height: 1.286;
-    text-align: left;
-    left: 359.937px;
-    top: 8177.248px;
-    margin-top: 29px;
-}
-
-.col4 {
-    height: 440px;
-    width: 427px;
-}
-
-div.line1,
-div.line2,
-div.line3 {
-    width: 1px;
-    height: 250px;
-    background-color: rgb(255, 255, 255);
-    opacity: 0.11;
-    margin-top: 100px;
-    border-left: 1px solid rgb(255, 255, 255);
-}
-
-.col2>p {
-    font-size: 16px;
-    font-family: "Manrope";
-    line-height: 1;
-    width: 97px;
-}
-
-.footerMENU {
-    font-size: 18px;
-    font-family: "Manrope";
-    color: rgb(150, 171, 92);
-    font-weight: bold;
-    line-height: 1.111;
-    text-align: left;
-    margin-top: 0;
-}
-
-.col3>h3,
-.col3>a {
-    font-size: 16px;
-    font-family: "Manrope";
-    color: rgb(255, 255, 255);
-    line-height: 1;
-    font-weight: normal;
-    text-align: left;
-    width: 97px;
-}
-
-.col3>h3 {
-    margin-bottom: 0;
-}
-
-h3.specialH3 {
-    margin-top: 45px;
-    color: rgb(150, 171, 92);
-    font-size: 18px;
-    font-family: "Manrope";
-    font-weight: bold;
-    line-height: 1.111;
-    width: 101px;
-}
-
-.col3>a {
-    color: rgb(150, 171, 92);
-    text-decoration: underline;
-}
-
-.col4 h3 {
-    font-size: 18px;
-    font-weight: bold;
-    text-transform: uppercase;
-    line-height: 1.389;
-    text-align: left;
-    width: 322px;
-}
-
-img.logoFb {
-    margin-top: 29px;
-}
-
-.footerBtn {
-    background-color: rgb(150, 171, 92);
-    width: 297px;
-    height: 58px;
-    font-size: 16px;
-    font-family: "Manrope";
-    color: rgb(255, 255, 255);
-    font-weight: bold;
-    line-height: 1.25;
-    margin-top: 29px;
-}
-
-.Layer_2 {
-    background-image: url("Layer 2.png");
-    position: absolute;
-    left: 737px;
-    top: 138px;
-    width: 992px;
-    height: 548px;
-    z-index: 40;
 }
